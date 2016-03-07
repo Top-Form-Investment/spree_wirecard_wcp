@@ -11,11 +11,11 @@ Wirecard Checkout Page offers:
   - PCI DSS 3 compliant, no PCI certification necessary for merchants.
   - Easy to add new payment methods, additional features, languages and currencies, etc.
   - Web interface for managing payments (approvals, cancelations, credits, etc.).
-  - Benefit from Wirecard Bank´s license to conclude credit card acceptance contracts (acquiring) and issue credit cards.
+  - Benefit from Wirecard Bank's license to conclude credit card acceptance contracts (acquiring) and issue credit cards.
   - With Wirecard Collecting only a single contract is required for payouts within various payment methods.
   - Support of recurring payments (subscriptions, one-click checkout).
 
-Our Online Guides provide further information on payment methods and additional features: https://integration.wirecard.at/
+Our Online Guides provide further information on payment methods and additional features: https://guides.wirecard.at/
 
 ## Installation
-Our Online Guides also provide technical documentation, installation and configuration instructions for the [extension](https://integration.wirecard.at/doku.php/shop_plugins:spree_wcp:start "Installation details").
+Our Online Guides also provide technical documentation, installation and configuration instructions for the [extension](https://guides.wirecard.at/doku.php/shop_plugins:spree_wcp:start "Installation details").
