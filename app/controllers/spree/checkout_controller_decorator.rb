@@ -51,7 +51,7 @@ module Spree
         end
       end
 
-      load_order
+      load_order_with_lock
 
       Wirecard::Logger.debug @order.to_yaml
       Wirecard::Logger.debug @order.user.to_yaml
@@ -65,13 +65,6 @@ module Spree
                                         })
       payment.started_processing!
       payment.pend!
-
-      update_params = object_params.dup
-      update_params.delete(:payments_attributes)
-      if @order.update_attributes(update_params)
-        fire_event('spree.checkout.update')
-        #  render :edit and return unless apply_coupon_code
-      end
 
       if not @order.errors.empty?
         render :edit and return

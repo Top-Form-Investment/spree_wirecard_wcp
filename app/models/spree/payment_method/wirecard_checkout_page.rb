@@ -21,7 +21,7 @@ class Spree::PaymentMethod::WirecardCheckoutPage < Spree::PaymentMethod
   self.paymenttype = 'SELECT'
   self.init_url = 'https://checkout.wirecard.com/page/init-server.php'
   self.plugin_name = 'spree2_wirecardcheckoutpage'
-  self.plugin_version = '1.1.0'
+  self.plugin_version = '1.1.1'
   self.window_name = 'wirecardCheckoutPageIframe'
 
   def method_type
@@ -106,7 +106,7 @@ class Spree::PaymentMethod::WirecardCheckoutPage < Spree::PaymentMethod
       params[:consumerBirthdate] = extra_params[:birthday].to_s
     end
 
-    params[:pluginVersion] = Base64.encode64(Spree::Config[:site_name] + ';' + Spree::version + ';;' + self::plugin_name + ';' + self::plugin_version)
+    params[:pluginVersion] = Base64.encode64(Spree::name + ';' + Spree::version + ';;' + self::plugin_name + ';' + self::plugin_version)
 
     params[:spree_payment_method_id] = self.id
     params[:spree_order_id] = order.id

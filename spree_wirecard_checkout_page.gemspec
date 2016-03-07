@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_wirecard_checkout_page'
-  s.version     = '1.1.0'
+  s.version     = '1.1.1'
   s.summary     = 'Adds Wirecard Checkout Page as a Payment Method to Spree store'
   #s.description = 'TODO: Add (optional) gem description here'
   s.required_ruby_version = '>= 1.9.3'
