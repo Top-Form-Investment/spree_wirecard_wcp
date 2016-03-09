@@ -1,6 +1,17 @@
 # Wirecard Checkout Page for Spree
 
+Wirecard Checkout Page plugin for Spree Commerce.
+
+Tested with Spree Commerce 2.4 (Rails 4.1.11) and 3.0 (Rails 4.2.5).
+
+Our [Online Guides](https://guides.wirecard.at/) provide further information on payment methods and additional features.
+
+## Installation
+Our Online Guides also provide technical documentation, installation and configuration instructions for the [extension](https://guides.wirecard.at/doku.php/shop_plugins:spree_wcp:start "Installation details").
+
+## Wirecard Checkout Page 
 Wirecard Checkout Page is designed to meet the ambitious demands of merchants offering a wide range of payment methods while at the same time fulfilling PCI DSS compliance.
+
 Wirecard Checkout Page offers:
   - National and international payment methods: credit cards, debit cards, online banking payments, mobile payment solutions and other alternative payment methods.
   - One interface for all payment methods.
@@ -14,8 +25,3 @@ Wirecard Checkout Page offers:
   - Benefit from Wirecard Bank's license to conclude credit card acceptance contracts (acquiring) and issue credit cards.
   - With Wirecard Collecting only a single contract is required for payouts within various payment methods.
   - Support of recurring payments (subscriptions, one-click checkout).
-
-Our Online Guides provide further information on payment methods and additional features: https://guides.wirecard.at/
-
-## Installation
-Our Online Guides also provide technical documentation, installation and configuration instructions for the [extension](https://guides.wirecard.at/doku.php/shop_plugins:spree_wcp:start "Installation details").
