@@ -1,7 +1,7 @@
 # Wirecard Checkout Page for Spree
 
 [![License](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://raw.githubusercontent.com/wirecard/spree_wirecard_wcp/master/LICENSE)
-[![Spree Commerce 2.4 (Rails 4.1.11) and 3.0 (Rails 4.2.5)](https://img.shields.io/badge/spree-2.4,3.0-green.svg)](https://spreecommerce.com/)
+[![Spree Commerce 2.4 (Rails 4.1.11) and 3.0 (Rails 4.2.5)](https://img.shields.io/badge/spree-2.4,%203.0-green.svg)](https://spreecommerce.com/)
 
 Wirecard Checkout Page plugin for Spree Commerce.
 
