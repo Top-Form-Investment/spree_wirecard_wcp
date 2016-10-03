@@ -7,7 +7,7 @@ Wirecard Checkout Page plugin for Spree Commerce.
 
 Tested with Spree Commerce 2.4 (Rails 4.1.11) and 3.0 (Rails 4.2.5).
 
-Our [Online Guides](https://guides.wirecard.at/) provide further information on payment methods and additional features.
+Our [Online Guides](https://guides.wirecard.at/) provide further information on payment methods and additional features. Please observe our [terms of use](https://guides.wirecard.at/shop_plugins:info#terms_of_use) regarding plugins.
 
 ## Installation
 Our Online Guides also provide technical documentation, installation and configuration instructions for the [extension](https://guides.wirecard.at/doku.php/shop_plugins:spree_wcp:start "Installation details").
