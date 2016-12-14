@@ -21,7 +21,7 @@ class Spree::PaymentMethod::WirecardCheckoutPage < Spree::PaymentMethod
   self.paymenttype = 'SELECT'
   self.init_url = 'https://checkout.wirecard.com/page/init-server.php'
   self.plugin_name = 'spree2_wirecardcheckoutpage'
-  self.plugin_version = '1.1.1'
+  self.plugin_version = '3.2.1-stable'
   self.window_name = 'wirecardCheckoutPageIframe'
 
   def method_type
